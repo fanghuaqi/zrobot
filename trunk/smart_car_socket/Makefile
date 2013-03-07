@@ -1,3 +1,10 @@
+CROSS_COMPILE_PATH=/opt/toolschain/arm-xilinxA9/bin/
+CROSS_COMPILE=arm-xilinx-linux-gnueabi-
+INSTALL_PATH=
 main:
-	/opt/toolschain/arm-xilinxA9/bin/arm-xilinx-linux-gnueabi-gcc err*.c dae*.c smart_car.c zynq_server_arm.c -o zynq_server_arm.o
+	$(CROSS_COMPILE)gcc err*.c dae*.c smart_car_move.c zynq_server.c -o zynq_server_arm.o
+clean:
+	rm -rf ./*.o
+install:
+	cp ./*.o $(INSTALL_PATH)
 
