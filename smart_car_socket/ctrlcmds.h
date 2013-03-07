@@ -14,17 +14,17 @@ enum ctrlcmd{
 	ENTER_FOLLOW_ROAD_MODE,
 	EXIT_FOLLOW_ROAD_MODE,
 
-	/*获取小车摄像头图像和视频 等UDP读命�?/
+	/*获取小车摄像头图像和视频 等UDP读命�*/
 	UDP_DATA_ACQ_BASE = 0x100,
 	ACQUIRE_CAMERA_IMAGE = UDP_DATA_ACQ_BASE,
 	ACQUIRE_CAMERA_VIDEO_START,
 	ACQUIRE_CAMERA_VIDEO_STOP,
 
-	/*获取小车当前的状态信�?等TCP读命�?/
+	/*获取小车当前的状态信�?等TCP读命�*/
 	TCP_DATA_ACQ_BASE = 0x200,
 	ACQUIRE_ROBOT_INFO = TCP_DATA_ACQ_BASE,
 
-	/*对ARM进行一些远程设�?/
+	/*对ARM进行一些远程设�*/
 	SET_ARM_BASE = 0x300,
 	SET_LCD_BASE = (SET_ARM_BASE + 0),
 	SET_LCD_WITH_PIC = (SET_LCD_BASE + 0),
