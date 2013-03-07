@@ -1,6 +1,9 @@
                                                README
                                                ======
 
+These codes are runing on Andriod platform which use for control smart car.
+You can install this APK on any Andriod platform.
+
 Author: Fang Huaqi
 Date: 2013-03-07 13:01:48 CST
 
