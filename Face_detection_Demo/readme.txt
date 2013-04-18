@@ -1,0 +1,1 @@
+Please link openCV library manual while cross-compiling source code.
