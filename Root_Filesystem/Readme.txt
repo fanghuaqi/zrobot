@@ -2,7 +2,7 @@
 
 
 
-_rootfs is ramdisk filesystem package.
+_rootfs is ramdisk filesystem package£¬Please only untar on linux enverinment.
 
 1.Copy your design(be cross-compiled) into filesystem.
 2.run mk_ramdisk.sh shell script to auto build the 32MB filesystem image.
@@ -12,5 +12,5 @@ _rootfs is ramdisk filesystem package.
 
 
 XUP
-5/15/2013
+5/17/2013
 
